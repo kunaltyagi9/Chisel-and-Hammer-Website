@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Designing of header*/
+
+.img-header{
+    width : 60%;
+}
+
+.nav-ul li a{
+	color : black !important;
+}
+
+@media only screen and (min-width: 600px) {
+   .nav-ul li {
+    margin : 0 40px 0 10px;
+   }
+}
+
+@media only screen and (min-width: 1000px) {
+   .nav-ul li {
+    margin : 0 60px 0 60px;
+   }
+}
+
+
+.spacing {
+  margin-bottom: 15% !important;
+  margin-top : 5%;
+}
+
+.image{
+	height: 50px;
+	width : 50px;
+	background-image : url("images/second.jpg");
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+
+.fourth{
+	margin-top : 15%;
+	margin-bottom : 20%;
+}
+
+.fourth input[type=submit] {
+	background-color: Black;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border : none;
+	cursor: pointer;
+}
+
+
